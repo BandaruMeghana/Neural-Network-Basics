@@ -8,7 +8,7 @@ The perceptron concept is illustrated by the XOR dataset i.e., the data is const
 
 Upon running the ```bitwise_perceptron.py``` multiple times, we see the correct predictions, for OR, AND datasets. But for XOR, we never get the correct predections in case of perceptron. This is because, OR, AND are linear datasets but XOR is a non-linear dataset. This example helps in illustrating the need for mutliple hidden layers, especially to handle the non-linear datasets which are the majority of the datasets in the current world. 
 
-<img src='data_linearity.png'>
+![Data Linearity](https://github.com/BandaruMeghana/Neural-Network-Basics/blob/master/data_linearity.PNG)
 
 All the core functionality of perceptron and back propagation are implemented in ```perceptron.py``` and ```neural_network.py``` files -inside the ```modules``` directory. The functionalities are implemented as classes.
 
