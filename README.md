@@ -16,5 +16,11 @@ Use the files inside ```scripts``` to see the functionalities in action.
 
 Although, implementing the core concepts from scratch gives us the intuition, it is operationally easy to use the available libraries. 
 Use the ```keras_MNIST.py``` and ```keras_CIFAR10.py``` to see the Tensorflow's Keras implementation. 
+- The keras implementation of MNIST dataset yields us an accuracy of ~92%. This is not the best we can achieve. Using the Convolution Neural Netwroks (CNN)s give us ~99% accuracy. 
 
-```config.py``` has all the parameters that can be played around with!
+![Loss on CIFAR10 dataset](https://github.com/BandaruMeghana/Neural-Network-Basics/blob/master/CIFAR.png)
+- The CIFAR dataset is color based. Here, we can see that, with pure neural nets, we get an accuracy of ~56%. 
+- We can see that after epoch 10, the model is overfitting. i.e., although the training loss reduced over the epochs, the validation loss keeps on increasing. 
+__Basic feedforward networks with strictly fully-connected layers are not suitable for challenging image datasets.__
+
+Finally, ```config.py``` has all the parameters that can be played around with!
