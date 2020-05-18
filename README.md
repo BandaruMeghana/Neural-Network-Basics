@@ -23,4 +23,6 @@ Use the ```keras_MNIST.py``` and ```keras_CIFAR10.py``` to see the Tensorflow's 
 - We can see that after epoch 10, the model is overfitting. i.e., although the training loss reduced over the epochs, the validation loss keeps on increasing. 
 __Basic feedforward networks with strictly fully-connected layers are not suitable for challenging image datasets.__
 
+The time taken tp process the MNIST and CIFAR on CPU is 9.80 min and 56.49 min respectively. Upon using the GPU's from Google Colab, the time is reduced to 3.77min and 14.71min!!!
+
 Finally, ```config.py``` has all the parameters that can be played around with!
