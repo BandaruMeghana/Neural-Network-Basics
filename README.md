@@ -14,4 +14,7 @@ All the core functionality of perceptron and back propagation are implemented in
 
 Use the files inside ```scripts``` to see the functionalities in action. 
 
+Although, implementing the core concepts from scratch gives us the intuition, it is operationally easy to use the available libraries. 
+Use the ```keras_MNIST.py``` and ```keras_CIFAR10.py``` to see the Tensorflow's Keras implementation. 
+
 ```config.py``` has all the parameters that can be played around with!
