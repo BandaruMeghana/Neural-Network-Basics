@@ -15,3 +15,26 @@ keras_CIFAR = {
     "epochs": 100,
     "batch_size": 32
 }
+
+shallownet_CIFAR = {
+    "dataset_path": "../data/animals/*/*.jpg",
+    "alpha": 0.01,
+    "loss": "categorical_crossentropy",
+    "batch_size": 32,
+    "epochs": 40
+}
+
+lenet_MNIST = {
+    "alpha": 0.01,
+    "loss": "categorical_crossentropy",
+    "batch_size": 128,
+    "epochs": 20
+}
+
+miniVGG_CIFAR = {
+    "alpha": 0.01,
+    "loss": "categorical_crossentropy",
+    "batch_size": 64,
+    "epochs": 40,
+    "weights_path": "../weights"
+}

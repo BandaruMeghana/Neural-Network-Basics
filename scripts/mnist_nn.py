@@ -12,7 +12,7 @@ data = (data - data.min()) / (data.max() - data.min())
 print('[INFO]: Samples={}, Dimension={}'.format(data.shape[0], data.shape[1]))
 
 # Construct the training and testing splits
-(trainX, testX, trainY, testY) = train_test_split(data, digits.target, test_size=0.25)
+(trainX, testX, trainY, testY) = train_test_split(data, digits.target, test_size=0.25, random_state=42)
 
 # Convert the labels from integers to vectors
 trainY = LabelBinarizer().fit_transform(trainY)

@@ -20,7 +20,7 @@ print("[INFO] Dataset shape: {}".format(dataset.data.shape))
 data = dataset.data.astype('float')/255.0
 
 # train-test split
-(trainX, testX, trainY, testY) = train_test_split(data, dataset.target, test_size=0.25)
+(trainX, testX, trainY, testY) = train_test_split(data, dataset.target, test_size=0.25, random_state=42)
 
 # convert the label ints to vectors
 # ex: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0] represents 3
